@@ -9,7 +9,7 @@ const script = ({playerName, nationality, jobTitle}) => [
   },
   {
     characters: ["yamashita"],
-    text: 'やました：みんなさん座ってを下さい。'
+    text: 'やました：みんな、すわってください。'
   },
   {
     text: 'やました：今日は「初めまして」と言います。メアリーさんどうぞ。'
@@ -23,7 +23,7 @@ const script = ({playerName, nationality, jobTitle}) => [
     text: 'メアリー：初めまして。メアリー・ハートです。'
   },
   {
-    text: 'メアリー：アリゾナ大学生の学生です。今２年生です。先行は日本語です。'
+    text: 'メアリー：アリゾナ大学生の学生です。今２年生です。専攻は日本語です。'
   },
   {
     text: 'メアリー：19歳です。よろしくお願いします。'
@@ -37,7 +37,7 @@ const script = ({playerName, nationality, jobTitle}) => [
     text: 'きむら：初めまして。きむら・たけしと申します。'
   },
   {
-    text: 'きむら：さくら大学の学生です。4年生です。先行は歴史です。'
+    text: 'きむら：さくら大学の学生です。4年生です。専攻は歴史です。'
   },
   {
     text: 'きむら：22歳です。よろしくお願いします。'
@@ -51,7 +51,7 @@ const script = ({playerName, nationality, jobTitle}) => [
     text: 'スー：初めまして。スー・キムです。'
   },
   {
-    text: 'スー：ソウル大学の学生。3年生です。先行はコンピューター。'
+    text: 'スー：ソウル大学の学生。3年生です。専攻はコンピューター。'
   },
   {
     text: 'スー：20歳です。よろしくお願いします。'
@@ -65,7 +65,7 @@ const script = ({playerName, nationality, jobTitle}) => [
     text: 'ロバート：初めまして。私の名前はロバート・スミスです。22歳です。'
   },
   {
-    text: 'ロバート：ロンドンの大学の学生です。４年生です。先行はビジネスです。'
+    text: 'ロバート：ロンドンの大学の学生です。４年生です。専攻はビジネスです。'
   },
   {
     text: 'ロバート：よろしくお願いします。'
@@ -107,7 +107,7 @@ const script = ({playerName, nationality, jobTitle}) => [
   },
   {
     characters: ["mary-happy", "sue-neutral"],
-    text: 'メアリー：ヨ！明日一緒に買い物行っていかない？'
+    text: 'メアリー：ヨ！明日一緒に買い物をしない？'
   },
   {
     text: '楽しそうですね。'
