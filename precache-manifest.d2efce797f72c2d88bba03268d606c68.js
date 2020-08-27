@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93332233cece647e75d7a8d13641319a",
+    "revision": "89b760e953b585a6a141d60990d9efcd",
     "url": "/genki-vn/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/genki-vn/static/css/2.01a96852.chunk.css"
   },
   {
-    "revision": "f573c02f844817af8c89",
+    "revision": "cbec78821a57cd26a190",
     "url": "/genki-vn/static/css/main.a4d56969.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/genki-vn/static/js/2.adf54f95.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f573c02f844817af8c89",
-    "url": "/genki-vn/static/js/main.9204961d.chunk.js"
+    "revision": "cbec78821a57cd26a190",
+    "url": "/genki-vn/static/js/main.0bbea666.chunk.js"
   },
   {
     "revision": "e1da1cb27ac37ceb4128",
