@@ -12,16 +12,15 @@ const newGameScript = ({playerName}) => [
   },
   {
     characters: ["mary-neutral"],
-    text: "おはようございます！げんき学園にようこそ。",
-    speaker: "Shelby",
+    text: "メアリー：おはようございます！げんき学園にようこそ。",
   },
   {
     characters: ["mary-neutral"],
-    text: "私の名前はメアリーです。",
+    text: "メアリー：私の名前はメアリーです。",
     speaker: "Shelby",
   },
   {
-    text: "お名前は何ですか？",
+    text: "メアリー：お名前は何ですか？",
     reply: {
       type: "input",
       variable: "playerName",
@@ -29,11 +28,11 @@ const newGameScript = ({playerName}) => [
   },
   {
     characters: ["mary-happy"],
-    text: `初めまして${playerName}さん！`,
+    text: `メアリー：初めまして${playerName}さん！`,
   },
   {
     characters: ["mary-neutral"],
-    text: "私と一緒にクラスへ行きましょうか？",
+    text: "メアリー：私と一緒にクラスへ行きましょうか？",
     reply: {
       type: "select",
       choices: [
