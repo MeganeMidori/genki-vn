@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/genki-vn/precache-manifest.d2efce797f72c2d88bba03268d606c68.js"
+  "/genki-vn/precache-manifest.5024ed104af571ee41e14c0a4ad301a8.js"
 );
 
 self.addEventListener('message', (event) => {
