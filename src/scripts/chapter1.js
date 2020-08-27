@@ -2,7 +2,7 @@ const script = ({playerName, nationality, jobTitle}) => [
   {
     background: ["blackBackground", "classroomBackground"],
     characters: ["mary-neutral", "yamashita"],
-    text: 'メアリー：クラスにようこそ。'
+    text: 'やました：クラスにようこそ。'
   },
   {
     text: 'やました：私の名前はやましたです。げんき学院の先生です。'
