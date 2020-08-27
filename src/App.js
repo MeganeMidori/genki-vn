@@ -199,6 +199,7 @@ function App() {
     <p>
     In certain cases I need to borrow more advanced vocabulary in order to fill in the gaps between phrases taught within the chapter. I also chose to include kanji from the beginning, although it is not intorduced in Genki until later chapters. To aid your understanding I recommend using <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi?hl=en">IPA Furigana extension for chrome</a> as well as <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en">Google Translate extension</a>. With these installed, you can click the ふ in your browser to toggle furigana, and you can highlight any words you do not recognize to look up the meaning with google translate. I'm learning japanese as I go along, so take all of this with a grain of salt of course!
     </p>
+    <p>Most character art was generated using <a href="https://charat.me/en/genesis/create/">Charat</a> and most background assets are from <a href="https://lemmasoft.renai.us/forums/viewtopic.php?t=17302">here</a></p>
     <p>
       By the way, this is an early test use of my <a href="https://github.com/MeganeMidori/react-renai">react-renai library</a>. Check it out if you're into that kind of thing!
     </p>
