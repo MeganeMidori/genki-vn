@@ -78,6 +78,10 @@ const Mary = (props) => {
       emotion: 'winded',
       sprite: sprite('winded')
     },
+    {
+      emotion: 'book',
+      sprite: sprite('book')
+    },
   ]
   return (<Character emotions={emotions} {...props} />)
 }

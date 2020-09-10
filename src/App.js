@@ -8,10 +8,15 @@ import Mary from './characters/Mary'
 import Classroom from './backgrounds/Classroom'
 import sampleScript from './scripts/newGame'
 import chapter1Script from './scripts/chapter1'
+import chapter2Script from './scripts/chapter2/chapter2'
+import chapter2SoupStoreScript from './scripts/chapter2/chatper2SoupStore'
 import Yamashita from './characters/Takeshi'
 import Kimura from './characters/Kimura'
 import Sue from './characters/Sue'
 import Robert from './characters/Robert'
+import MallExterior from './backgrounds/MallExterior';
+import {SoupStore1, SoupStore2} from './backgrounds/SoupStore';
+import chapter2Scenes from './scenes/chapter2'
 
 const ParkBackground = (props) => {
   return (
@@ -141,6 +146,54 @@ const NewGameScene = () => {
   );
 };
 
+const Chapter2Scenes = () => {
+  const gameState = useContext(GameStateContext);
+  const script = chapter2Script(gameState);
+
+  const assets = [
+    <Mary assetId="mary-neutral" flipId="1" />,
+    <Mary assetId="mary-winded" emotion="winded" flipId="1" />,
+    <Sue assetId="sue-neutral" flipId="2" />,
+    <BlackBackground assetId="blackBackground" />,
+    <MallExterior assetId="mallExteriorBackground" />,
+    <LLSIFText assetId="llsif-text" />,
+  ]
+
+  return (
+    <div>
+      <GameMenuBar />
+      {/* TODO: textcomponent should also passed in with the script instead of in the props */}
+      {/* TODO: but also maybe you can configure a default somewhere? */}
+      <Scene script={script} assets={assets} textComponent={LLSIFText} />
+    </div>
+  );
+};
+
+const Chapter2SoupStoreScene = () => {
+  const gameState = useContext(GameStateContext);
+  const script = chapter2SoupStoreScript(gameState);
+
+  const assets = [
+    <Mary assetId="mary-hungry" emotion="hungry" flipId="1" />,
+    <Mary assetId="mary-neutral" flipId="1" />,
+    <Mary assetId="mary-angry" emotion="angry" flipId="1" />,
+    <Mary assetId="mary-scared" emotion="scared" flipId="1" />,
+    <BlackBackground assetId="blackBackground" />,
+    <SoupStore1 assetId="soupStore1" />,
+    <SoupStore2 assetId="soupStore2" />,
+    <LLSIFText assetId="llsif-text" />,
+  ]
+
+  return (
+    <div>
+      <GameMenuBar />
+      {/* TODO: textcomponent should also passed in with the script instead of in the props */}
+      {/* TODO: but also maybe you can configure a default somewhere? */}
+      <Scene script={script} assets={assets} textComponent={LLSIFText} />
+    </div>
+  );
+};
+
 const GameMenuBar = (props) => {
   const gameState = useContext(GameStateContext);
 
@@ -203,13 +256,14 @@ function App() {
     <p>
       By the way, this is an early test use of my <a href="https://github.com/MeganeMidori/react-renai">react-renai library</a>. Check it out if you're into that kind of thing!
     </p>
-    <GameWindow>
+    <GameWindow style={{overflow: "hidden"}}>
       <MyGameMenu componentKey="menu" index />
       <DialogueHistory componentKey="dialogueHistory" />
       <NewGameScene componentKey="newGame" />
       <Scene1 componentKey="chapter1" />
       <MyLoadGameMenu componentKey="loadGameMenu" />
       <MySaveGameMenu componentKey="saveGameMenu" />
+      {chapter2Scenes}
     </GameWindow>
     </div>
   );

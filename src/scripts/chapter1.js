@@ -125,16 +125,13 @@ const script = ({playerName, nationality, jobTitle}) => [
     text: 'メアリー：電話番号は９３８の４９２の１０４６です。また明日ね！'
   },
   {
-    text: `To be continued...
-You reached the end of chapter 1! Would you like to save your progress?`,
+    text: 'また明日！',
     reply: {
       type: "select",
       choices: [
-        { name: "Save game", value: "save", navigate: true, saveGame: true },
-        { name: "Main menu", value: "menu", navigate: true},
+        { name: "続く", value: "chapter2", navigate: true },
       ],
-    },
-  }
+    },  }
 ]
 
 export default script;

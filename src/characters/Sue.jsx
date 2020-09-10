@@ -9,6 +9,26 @@ const Sue = (props) => {
       emotion: 'neutral',
       sprite: sprite('neutral')
     },
+    {
+      emotion: 'cringe',
+      sprite: sprite('cringe')
+    },
+    {
+      emotion: 'excited',
+      sprite: sprite('excited')
+    },
+    {
+      emotion: 'surprised',
+      sprite: sprite('surprised')
+    },
+    {
+      emotion: 'sad',
+      sprite: sprite('sad')
+    },
+    {
+      emotion: 'sleepy',
+      sprite: sprite('sleepy')
+    },
   ]
   return (<Character emotions={emotions} {...props} />)
 }
