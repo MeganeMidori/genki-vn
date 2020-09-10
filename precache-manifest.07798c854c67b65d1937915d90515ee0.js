@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cd7f61f3467dc27a06010a1bda78201",
+    "revision": "65ef5d7c1b041cf35a82f9825bc3a5e7",
     "url": "/genki-vn/index.html"
   },
   {
-    "revision": "54be5f1a415996e82f7f",
+    "revision": "0882f86b5876c962d852",
     "url": "/genki-vn/static/css/2.01a96852.chunk.css"
   },
   {
-    "revision": "32ad059d8550dbdea135",
+    "revision": "a89f8261ca6c5d31938e",
     "url": "/genki-vn/static/css/main.ef453258.chunk.css"
   },
   {
-    "revision": "54be5f1a415996e82f7f",
-    "url": "/genki-vn/static/js/2.adf54f95.chunk.js"
+    "revision": "0882f86b5876c962d852",
+    "url": "/genki-vn/static/js/2.10de72ec.chunk.js"
   },
   {
     "revision": "9958780d182350cee9cc1b612e70eb1e",
-    "url": "/genki-vn/static/js/2.adf54f95.chunk.js.LICENSE.txt"
+    "url": "/genki-vn/static/js/2.10de72ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32ad059d8550dbdea135",
-    "url": "/genki-vn/static/js/main.e6a44bb5.chunk.js"
+    "revision": "a89f8261ca6c5d31938e",
+    "url": "/genki-vn/static/js/main.e4021eff.chunk.js"
   },
   {
     "revision": "e1da1cb27ac37ceb4128",
