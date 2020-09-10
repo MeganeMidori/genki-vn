@@ -256,6 +256,7 @@ function App() {
     <p>
       By the way, this is an early test use of my <a href="https://github.com/MeganeMidori/react-renai">react-renai library</a>. Check it out if you're into that kind of thing!
     </p>
+    <p><b>Game last updated: 9/10/2020</b></p>
     <GameWindow style={{overflow: "hidden"}}>
       <MyGameMenu componentKey="menu" index />
       <DialogueHistory componentKey="dialogueHistory" />
