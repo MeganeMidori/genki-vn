@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/genki-vn/static/css/main.ef453258.chunk.css",
-    "main.js": "/genki-vn/static/js/main.e4021eff.chunk.js",
-    "main.js.map": "/genki-vn/static/js/main.e4021eff.chunk.js.map",
+    "main.js": "/genki-vn/static/js/main.e1406ba6.chunk.js",
+    "main.js.map": "/genki-vn/static/js/main.e1406ba6.chunk.js.map",
     "runtime-main.js": "/genki-vn/static/js/runtime-main.d2721a36.js",
     "runtime-main.js.map": "/genki-vn/static/js/runtime-main.d2721a36.js.map",
     "static/css/2.01a96852.chunk.css": "/genki-vn/static/css/2.01a96852.chunk.css",
     "static/js/2.10de72ec.chunk.js": "/genki-vn/static/js/2.10de72ec.chunk.js",
     "static/js/2.10de72ec.chunk.js.map": "/genki-vn/static/js/2.10de72ec.chunk.js.map",
     "index.html": "/genki-vn/index.html",
-    "precache-manifest.07798c854c67b65d1937915d90515ee0.js": "/genki-vn/precache-manifest.07798c854c67b65d1937915d90515ee0.js",
+    "precache-manifest.05b5ef0cd09ce3def0a0f465478718f1.js": "/genki-vn/precache-manifest.05b5ef0cd09ce3def0a0f465478718f1.js",
     "service-worker.js": "/genki-vn/service-worker.js",
     "static/css/2.01a96852.chunk.css.map": "/genki-vn/static/css/2.01a96852.chunk.css.map",
     "static/css/main.ef453258.chunk.css.map": "/genki-vn/static/css/main.ef453258.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.01a96852.chunk.css",
     "static/js/2.10de72ec.chunk.js",
     "static/css/main.ef453258.chunk.css",
-    "static/js/main.e4021eff.chunk.js"
+    "static/js/main.e1406ba6.chunk.js"
   ]
 }
